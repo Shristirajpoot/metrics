@@ -1,60 +1,53 @@
-name: GitHub Metrics
+name: 📊 Generate Metrics
 
 on:
-  # Runs automatically every day at midnight UTC
+  # Runs every day at 12AM IST
   schedule:
-    - cron: "0 0 * * *"
-  # Trigger on push to main (optional)
-  push:
-    branches: ["main"]
-  # Allow manual trigger
+    - cron: '30 18 * * *'  # UTC 18:30 = 00:00 IST
   workflow_dispatch:
 
 jobs:
-  github-metrics:
+  metrics:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: 📊 Generate Metrics
+        uses: lowlighter/metrics@latest
         with:
-          # Path to output file
-          filename: metrics.full.svg
-          # GitHub token stored in repo secrets
-          token: ${{ secrets.GH_TOKEN }}
-
-          # Core settings
+          token: ${{ secrets.METRICS_TOKEN }}
           user: Shristirajpoot
-          template: classic
-          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
 
-          # Plugins
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          
-          plugin_code: yes
-          plugin_code_lines: 12
+          # Output mode to save individual SVGs to the repo
+          filename: metrics.plugin.base.svg
 
-          plugin_languages: yes
-          plugin_languages_ignored: html, css
-          plugin_languages_skipped: metrics
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_threshold: 2%
-
+          # Enable desired plugins
+          base: header, repositories
+          plugin_lines: yes
           plugin_followup: yes
-          plugin_followup_sections: repositories, user
-
-          plugin_notable: yes
-
+          plugin_achievements: yes
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+            html, css
+          plugin_languages_limit: 6
           plugin_reactions: yes
-          plugin_reactions_limit: 200
-          plugin_reactions_display: top
-
           plugin_discussions: yes
-
+          plugin_notable: yes
+          plugin_notable_repositories: 2
           plugin_leetcode: yes
           plugin_leetcode_user: Debug_coder
+          plugin_leetcode_sections: solved
+          plugin_leetcode_limit_skills: 20
+          plugin_leetcode_limit_recent: 2
 
-          plugin_topics: yes
-          plugin_topics_limit: 12
-          plugin_topics_mode: icons
-
-          plugin_traffic: yes
+          # Enable SVG output for each plugin separately
+          output_action: commit
+          output_action_filename: |
+            metrics.plugin.code.lines.svg
+            metrics.plugin.followup.svg
+            metrics.plugin.leetcode.svg
+            metrics.plugin.notable.contributions.svg
+            metrics.plugin.achievements.svg
+            metrics.plugin.languages.activity.svg
+            metrics.plugin.discussions.svg
+            metrics.plugin.reactions.svg
