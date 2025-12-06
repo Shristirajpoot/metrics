@@ -39,7 +39,7 @@ jobs:
           filename: assets/metrics.plugin.leetcode.svg
           base: ""
           plugin_leetcode: yes
-          plugin_leetcode_user: Debug_coder
+          plugin_leetcode_user: LjpoZKYlnz
           plugin_leetcode_sections: solved, skills, recent
 
   notable:
