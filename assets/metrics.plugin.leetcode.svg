@@ -19,9 +19,9 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge all">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="25.235309412376495 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">295</text>
-                                    <text x="60" y="80" dominant-baseline="central" class="secondary">/3846</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="25.465454545454545 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">298</text>
+                                    <text x="60" y="80" dominant-baseline="central" class="secondary">/3850</text>
                                 </svg>
                                 <span class="title">All</span>
                             </div>
@@ -37,18 +37,18 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge medium">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="26.51641791044776 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">162</text>
-                                    <text x="60" y="80" dominant-baseline="central" class="secondary">/2010</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="26.967213114754095 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">165</text>
+                                    <text x="60" y="80" dominant-baseline="central" class="secondary">/2013</text>
                                 </svg>
                                 <span class="title">Medium</span>
                             </div>
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge hard">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="19.182618261826182 329"/>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="19.161538461538463 329"/>
                                     <text x="60" y="50" dominant-baseline="central">53</text>
-                                    <text x="60" y="80" dominant-baseline="central" class="secondary">/909</text>
+                                    <text x="60" y="80" dominant-baseline="central" class="secondary">/910</text>
                                 </svg>
                                 <span class="title">Hard</span>
                             </div>
@@ -71,8 +71,8 @@
                         <div class="label fundamental"><span class="dot">⬤</span> Sorting <span class="count">x35</span></div>
                         <div class="label fundamental"><span class="dot">⬤</span> Two Pointers <span class="count">x31</span></div>
                         <div class="label fundamental"><span class="dot">⬤</span> Matrix <span class="count">x26</span></div>
+                        <div class="label intermediate"><span class="dot">⬤</span> Binary Search <span class="count">x25</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Depth-First Search <span class="count">x25</span></div>
-                        <div class="label intermediate"><span class="dot">⬤</span> Binary Search <span class="count">x24</span></div>
                     </div>
                 </section>
                 <section class="leetcode subsection">
@@ -87,7 +87,7 @@
                             <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                         </svg>
                         <div class="infos">
-                            <div class="title">Binary Gap</div>
+                            <div class="title">Check Digitorial Permutation</div>
                             <div class="date">22 Feb 2026</div>
                         </div>
                     </div>
@@ -96,8 +96,8 @@
                             <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                         </svg>
                         <div class="infos">
-                            <div class="title">Prime Number of Set Bits in Binary Representation</div>
-                            <div class="date">21 Feb 2026</div>
+                            <div class="title">Maximum Bitwise XOR After Rearrangement</div>
+                            <div class="date">22 Feb 2026</div>
                         </div>
                     </div>
                 </section>
