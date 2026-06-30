@@ -63,16 +63,16 @@
                         Skills
                     </h2>
                     <div class="topics">
-                        <div class="label fundamental"><span class="dot">⬤</span> Array <span class="count">x272</span></div>
-                        <div class="label fundamental"><span class="dot">⬤</span> String <span class="count">x98</span></div>
-                        <div class="label intermediate"><span class="dot">⬤</span> Hash Table <span class="count">x89</span></div>
-                        <div class="label intermediate"><span class="dot">⬤</span> Math <span class="count">x89</span></div>
+                        <div class="label fundamental"><span class="dot">⬤</span> Array <span class="count">x274</span></div>
+                        <div class="label fundamental"><span class="dot">⬤</span> String <span class="count">x100</span></div>
+                        <div class="label intermediate"><span class="dot">⬤</span> Math <span class="count">x91</span></div>
+                        <div class="label intermediate"><span class="dot">⬤</span> Hash Table <span class="count">x90</span></div>
                         <div class="label advanced"><span class="dot">⬤</span> Dynamic Programming <span class="count">x80</span></div>
                         <div class="label fundamental"><span class="dot">⬤</span> Sorting <span class="count">x59</span></div>
                         <div class="label fundamental"><span class="dot">⬤</span> Matrix <span class="count">x54</span></div>
-                        <div class="label intermediate"><span class="dot">⬤</span> Greedy <span class="count">x46</span></div>
+                        <div class="label intermediate"><span class="dot">⬤</span> Greedy <span class="count">x47</span></div>
                         <div class="label fundamental"><span class="dot">⬤</span> Two Pointers <span class="count">x43</span></div>
-                        <div class="label intermediate"><span class="dot">⬤</span> Binary Search <span class="count">x36</span></div>
+                        <div class="label intermediate"><span class="dot">⬤</span> Binary Search <span class="count">x37</span></div>
                     </div>
                 </section>
                 <section class="leetcode subsection">
