@@ -19,8 +19,8 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge all">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="39.2430607651913 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">477</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="39.407601900475115 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">479</text>
                                     <text x="60" y="80" dominant-baseline="central" class="secondary">/3999</text>
                                 </svg>
                                 <span class="title">All</span>
@@ -28,8 +28,8 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge easy">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="40.95292887029289 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">119</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="41.29707112970711 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">120</text>
                                     <text x="60" y="80" dominant-baseline="central" class="secondary">/956</text>
                                 </svg>
                                 <span class="title">Easy</span>
@@ -37,8 +37,8 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge medium">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="40.179597701149426 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">255</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="40.337164750957854 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">256</text>
                                     <text x="60" y="80" dominant-baseline="central" class="secondary">/2088</text>
                                 </svg>
                                 <span class="title">Medium</span>
@@ -63,13 +63,13 @@
                         Skills
                     </h2>
                     <div class="topics">
-                        <div class="label fundamental"><span class="dot">⬤</span> Array <span class="count">x289</span></div>
+                        <div class="label fundamental"><span class="dot">⬤</span> Array <span class="count">x291</span></div>
                         <div class="label fundamental"><span class="dot">⬤</span> String <span class="count">x104</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Math <span class="count">x97</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Hash Table <span class="count">x96</span></div>
-                        <div class="label advanced"><span class="dot">⬤</span> Dynamic Programming <span class="count">x84</span></div>
+                        <div class="label advanced"><span class="dot">⬤</span> Dynamic Programming <span class="count">x85</span></div>
                         <div class="label fundamental"><span class="dot">⬤</span> Sorting <span class="count">x63</span></div>
-                        <div class="label fundamental"><span class="dot">⬤</span> Matrix <span class="count">x58</span></div>
+                        <div class="label fundamental"><span class="dot">⬤</span> Matrix <span class="count">x59</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Greedy <span class="count">x49</span></div>
                         <div class="label fundamental"><span class="dot">⬤</span> Two Pointers <span class="count">x45</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Binary Search <span class="count">x43</span></div>
@@ -87,8 +87,8 @@
                             <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                         </svg>
                         <div class="infos">
-                            <div class="title">Smallest Subsequence of Distinct Characters</div>
-                            <div class="date">19 Jul 2026</div>
+                            <div class="title">Jump Game IX</div>
+                            <div class="date">20 Jul 2026</div>
                         </div>
                     </div>
                     <div class="field">
@@ -96,8 +96,8 @@
                             <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                         </svg>
                         <div class="infos">
-                            <div class="title">Find Greatest Common Divisor of Array</div>
-                            <div class="date">18 Jul 2026</div>
+                            <div class="title">Shift 2D Grid</div>
+                            <div class="date">20 Jul 2026</div>
                         </div>
                     </div>
                 </section>
